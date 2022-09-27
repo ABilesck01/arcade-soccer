@@ -667,7 +667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f678cf55ba2eb4e93d796939cb445b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 6
+  MovementSpeed: 8
   RotationSpeed: 0.1
   RotationForwardSpeed: 0
   DashForce: 0
@@ -1133,7 +1133,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232104442}
-  m_Material: {fileID: 13400000, guid: 14ff66dda34a7b441b2dd557eb563a31, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1171,9 +1171,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   KickDistance: 1
-  minKickForce: 100
+  minKickForce: 30
   maxKickForce: 500
-  chargeSpeed: 2
+  chargeSpeed: 75
   ShowGizmos: 0
 --- !u!114 &232104447
 MonoBehaviour:
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f678cf55ba2eb4e93d796939cb445b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 6
+  MovementSpeed: 8
   RotationSpeed: 0.1
   RotationForwardSpeed: 0
   DashForce: 4
@@ -1281,7 +1281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f678cf55ba2eb4e93d796939cb445b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 6
+  MovementSpeed: 8
   RotationSpeed: 0.1
   RotationForwardSpeed: 0
   DashForce: 0
@@ -1439,7 +1439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &311822661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1733,7 +1733,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337858189}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 227152cae7d675f4fb0f79ee3a97bb04, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3610,7 +3610,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099110170}
-  m_Material: {fileID: 13400000, guid: 14ff66dda34a7b441b2dd557eb563a31, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3648,9 +3648,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   KickDistance: 1
-  minKickForce: 100
+  minKickForce: 30
   maxKickForce: 500
-  chargeSpeed: 2
+  chargeSpeed: 75
   ShowGizmos: 0
 --- !u!114 &1099110175
 MonoBehaviour:
@@ -3664,7 +3664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f678cf55ba2eb4e93d796939cb445b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 6
+  MovementSpeed: 8
   RotationSpeed: 0.1
   RotationForwardSpeed: 0
   DashForce: 4
@@ -3848,7 +3848,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138980578}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 14ff66dda34a7b441b2dd557eb563a31, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
@@ -4752,7 +4752,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340764623}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 227152cae7d675f4fb0f79ee3a97bb04, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5320,7 +5320,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522731065}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 227152cae7d675f4fb0f79ee3a97bb04, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5908,7 +5908,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682785379}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 227152cae7d675f4fb0f79ee3a97bb04, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6488,7 +6488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1920354423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7194,7 +7194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f678cf55ba2eb4e93d796939cb445b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 6
+  MovementSpeed: 8
   RotationSpeed: 0.1
   RotationForwardSpeed: 0
   DashForce: 0
@@ -7275,7 +7275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657179e1d8ed77d418f023edd6f48a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MatchTimeInSeconds: 90
+  MatchTimeInSeconds: 900
   timeToReset: 2
   teamOneScore: 0
   teamTwoScore: 0
@@ -7380,6 +7380,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1889296557}
     m_Modifications:
+    - target: {fileID: 7574210247189714101, guid: d92cf6874847e13499967611512ed3fe, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574210247189714248, guid: d92cf6874847e13499967611512ed3fe, type: 3}
+      propertyPath: MovementSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574210247189714250, guid: d92cf6874847e13499967611512ed3fe, type: 3}
+      propertyPath: chargeSpeed
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574210247189714250, guid: d92cf6874847e13499967611512ed3fe, type: 3}
+      propertyPath: minKickForce
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7574210247189714251, guid: d92cf6874847e13499967611512ed3fe, type: 3}
       propertyPath: m_Constraints
       value: 116
